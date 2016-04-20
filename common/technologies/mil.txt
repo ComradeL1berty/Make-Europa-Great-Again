@@ -71,6 +71,7 @@ technology = {
 	infantry_shock		= 	0.2
 	cavalry_shock		= 	0.2
 	
+	combat_width = 5
 }
 
 # The 30 big techs from here on
@@ -91,7 +92,6 @@ technology = {
 
 	land_morale = 	0.5
 	military_tactics 	= 	0.25
-	
 }
 
 technology = {
@@ -99,7 +99,7 @@ technology = {
 	year = 1466
 	
 	#Standardised Pikes
-	supply_limit 		= 	0.3
+	supply_limit 		= 	0.5
 	infantry_shock		= 	0.15
 	cavalry_shock		= 	0.2
 
@@ -168,8 +168,6 @@ technology = {
 	military_tactics 	= 	0.25
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
-	
-	combat_width = 1
 }
 
 technology = {
@@ -182,7 +180,6 @@ technology = {
 
 	
 	regimental_camp = yes
-	
 }
 
 technology = {
@@ -256,7 +253,7 @@ technology = {
 	#Spanish Square
 	sprite_level = 2
 	
-	supply_limit 		= 	0.3
+	supply_limit 		= 	0.5
 	military_tactics	=	0.25
 
 	enable = tofongchis_musketeer		
@@ -273,8 +270,6 @@ technology = {
 	enable = african_hill_warfare	
 	enable = ethiopian_mountain_warfare		
 	enable = steppe_footmen
-	
-	combat_width = 2
 }
 
 technology = {
@@ -363,13 +358,11 @@ technology = {
 	year = 1622
 	
 	cavalry_shock		=	1.0
-	supply_limit		= 	0.3
+	supply_limit		= 	0.5	
 	
 	enable = maharathan_cavalry		
 	enable = manchu_banner		
 	enable = african_swarm
-	
-	combat_width = 2
 }
 
 technology = {
@@ -398,7 +391,7 @@ technology = {
 	
 	#Gustavian Infantry
 	military_tactics 	= 	0.25
-	supply_limit		=	0.3
+	supply_limit		=	0.5
 
 	fort_17th = yes
 
@@ -565,7 +558,7 @@ technology = {
 	year = 1760
 	
 	#Bayonet
-	supply_limit		=	0.3
+	supply_limit		=	0.5
 	infantry_fire		= 	0.5	
 }
 
@@ -638,7 +631,7 @@ technology = {
 	#Rifle
 	cavalry_shock		=	1.0
 	infantry_fire		=	1.0
-	supply_limit		=	0.3
+	supply_limit		=	0.5
 }
 
 technology = {
